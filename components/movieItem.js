@@ -1,26 +1,9 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
- 
-// class App extends Component {
-//     render() {
-//         return (
-//             <div>
-//                 <h2>Hello World!</h2>
-//             </div>
-//         )
-//     }
-// }
-
-
- 
-// ReactDOM.render( <App />, document.querySelector( '#app' ) );
-
 function Title(properties){
     return React.createElement('span', null, properties.title);
 }
 
 function Image(properties){
-    return React.createElement('img', {src: properties.url});
+    return React.createElement('img', {scr: properties.url});
 }
 
 function MovieItem(properties){
